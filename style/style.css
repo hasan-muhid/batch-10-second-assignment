@@ -531,8 +531,6 @@ form  input, select, ::placeholder{
     font-size: 1.1rem;
     line-height: 2.5rem;
     font-weight: 400;
-
-
 }
 .btn{
     text-align: center;
@@ -558,7 +556,7 @@ form  input, select, ::placeholder{
  /* sixth section Our team start */
 
 
-
+/* 
 #our-team{
     max-width: 1440px;
     height: 900px;
@@ -592,7 +590,7 @@ form  input, select, ::placeholder{
     justify-content: center;
     border-radius: 20px;
     background-color: var(--bg);
-    /* padding: 50px, 30px; */
+    padding: 50px, 30px; 
     padding-left: 25px;
     padding-top: 15px;
     padding-right: 20px;
@@ -631,7 +629,7 @@ span.short-title{
     position: relative;
     z-index: 1;
 } */
-.team-text-1{
+/* .team-text-1{
     position:absolute;
     top: 34%;
     left: 3%;
@@ -660,7 +658,7 @@ span.short-title{
     position:absolute;
     top: 85%;
     left: 71%;
-}
+} */ 
 
 
  /* sixth section Our team end */
@@ -737,7 +735,6 @@ footer{
     margin-bottom: 20px;
     color:  rgb(255, 255, 255);
     font-weight: 700;
-    /* text-align: center; */
 
 
 
@@ -746,7 +743,6 @@ footer{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    /* text-align: center; */
     
 
 

@@ -108,28 +108,84 @@
      #Calculator-text{
         padding: 10px 30px;
      }
-    .membership-offer{
-        flex-direction: column;
-        width: 100%;
-        gap: 0;
-    }
-
- .plan{
-    width: 100%;}
+   
 
     .calculator-container {
         flex-direction: column;
     }
  .Bmi-chart{
     width: 100%;
+    padding-left: 40px;
 
  }
   #bmi-calculator{
-    width: 100%
+    width: 100%;
+    margin-left: 0px;
+    padding: 0 20px;
  }
  #Bmi-Calculator{
    flex-direction: column;
    height: 900px;
  }
+ form{
+    margin-left: 0px;
+}
+#bmi-calculator h1{
+    margin-left: 10px;
+ }
+ #bmi-calculator p{
+    margin-left: 10px;
+}
+.pricing h1{
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+.membership-offer{
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.plan{
+width: 80%;}
+.plan p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+
+footer{
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 40px;
     
+}
+.footer-content{
+    flex-direction: column;
+    height: 600px;
+    gap: 10px;
+}
+.footer-left{
+    width: 100%;
+}
+.footer-left p{
+    font-size: 1rem;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.footer-right{
+    width: 100%;
+}
+.footer-right{
+    padding-left: 13px;
+}
+.footer-center{
+    width: 100%;
+    padding-left: 13px;
+
+}
+.border{
+    padding: 20px 0;
 }
