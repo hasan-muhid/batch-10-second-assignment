@@ -1,0 +1,135 @@
+
+@media  screen and ( max-width:576px ) {
+    body{
+        /* width: 100%; */
+    }
+   .nav ul{
+        display: none;
+    }
+    header{
+        /* width: 100%; */
+    }
+    main{
+        /* width: 100%; */
+    }
+    .nav-bar{
+        width: 100%;
+    }
+    .brand{
+        width: 50%;
+        padding-left: 20px;
+    }
+.logo{
+    font-size: 2rem;
+
+}
+    .nav{
+        width: 50%;
+        border: none;
+        text-align: right;
+    }
+    .menu{
+        display: block;
+        text-align: left;
+    }
+    .menu i{
+
+        font-size: 2rem;
+        color: white;
+        margin-left: 200px;
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+        padding-left: 20px;
+    }
+
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right{
+        width: 100%;
+    }
+    .banner-right{
+        width: 45%;
+        text-align: center;
+        position: relative;
+    }
+    .banner-right img{
+        width: 100%;
+    
+    }
+    .card-2{
+       
+        top: 55%;
+        left: -30%;  
+    }
+    .habit-title{
+        font-size: 2.5rem;
+
+    }
+    #team{
+        height: 1700px;
+    }
+
+    .team-card{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    .person-title{
+        font-size: 1.1rem;
+    
+        }
+    #run{
+        width: 100%;
+        padding: 20px;
+    }
+    .run-left{
+        width: 100%;
+        padding-top: 40px;
+
+    }
+    .run-right{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .run-content{
+         height: 800px;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 10px 20;
+
+     }
+     #Calculator-text{
+        height: 200px;
+        margin-top: 150px;
+     }
+
+     #Calculator-text{
+        padding: 10px 30px;
+     }
+    .membership-offer{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+ .plan{
+    width: 100%;}
+
+    .calculator-container {
+        flex-direction: column;
+    }
+ .Bmi-chart{
+    width: 100%;
+
+ }
+  #bmi-calculator{
+    width: 100%
+ }
+ #Bmi-Calculator{
+   flex-direction: column;
+   height: 900px;
+ }
+    
+}
