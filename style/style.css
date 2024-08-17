@@ -6,6 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
 
 /* font family add end */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Inter", sans-serif;
     max-width: 1440px;
@@ -17,6 +22,12 @@ body{
     --title:rgba(255, 255, 255, 1);
     --text:rgba(255, 255, 255, 0.5);
     --bg:rgb(34, 34, 34);
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+
 }
 /* header area desgin start */
 header{
@@ -58,7 +69,11 @@ header{
 .nav{
     border: 1px solid rgba(242, 242, 242, 0.075);
     width: 505px;
+    height: 50px;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .menu > a{
@@ -82,6 +97,7 @@ header{
     font-size: 4.5rem;
     font-weight: 800;
     color: white;
+   margin-bottom: 30px;
 }
 .dancing-text{
     font-size: 4.5rem;
@@ -93,7 +109,7 @@ header{
     font-size: 1rem;
     line-height: 1.6rem;
     color: white;
-    margin-top: -30px;
+    margin-bottom: 35px;
 
 }
 .btn-div{
@@ -101,6 +117,7 @@ header{
     align-items: center;
     gap: 40px;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 .join-btn button{
     width: 224px;
@@ -145,17 +162,24 @@ header{
     top: 21%;
     left: 58%;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .card-1 h2{
     font-size: 2.4rem;
     font-weight:800;
     color: white;
     line-height: 0px;
+    margin-top: 20px;
+
 }
 .card-1 p{
     font-style: 1rem;
     font-weight: 400;
     color:rgba(255, 255, 255, 0.736);
+    margin-top: 20px;
 
 }
 .card-2{
@@ -183,11 +207,539 @@ header{
     font-weight:800;
     color: white;
     line-height: 0px;
+    margin-top: 10px;
 }
 .card-2 p{
     font-style: 1rem;
     font-weight: 400;
     color:rgba(255, 255, 255, 0.736);
+    margin-top: 20px;
 }
 
 /* banner area design start */
+
+ /* Second section change your habits design start  */
+
+#team{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+}
+.habit-title{
+    font-size: 3.1rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.habit-des{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.team-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+
+}
+.team-single-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.person-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+
+}
+.person-des{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -10px;
+}
+
+.person-img img{ 
+    border-radius: 50%;
+    border: 4px solid var(--bg);
+}
+
+ /* Second section change your habits design end  */
+
+
+ /* third section run design start  */
+
+    #run{
+        height: 520px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-content{
+        width: 1090px;
+        height: 400px;
+        border-radius: 15px;
+        background-color: var(--bg);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .run-left{
+        width: 50%;
+    }
+    .run-title{
+        font-size: 3rem;
+        font-weight:900;
+        color: white;
+        line-height: 3.7rem;
+        margin-bottom: 20px;
+    }
+    .run-des{
+        font-size: .9rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 1.4rem;
+        margin-bottom: 30px;
+    }
+    .run-right{
+        width: 50%;
+    }
+    .run-right img{
+        width: 100%;
+        border-radius: 20px;
+        filter: brightness(90%);
+    }
+ /* third section run design end  */
+
+ /* fourth section Trainings and Exercises design start  */
+
+ #training{
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 1090px;
+    margin: 0 auto;
+ }
+.exercises h1{
+    font-size: 3rem;
+    font-weight:900;
+    color: white;
+    line-height: 3.7rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.exercises p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.4rem;
+    margin-bottom: 30px;
+}
+.exercises-grid-1,
+.exercises-grid-2{
+    display: grid;
+    grid-template-columns: 0.50fr 1fr 0.50fr;
+}
+
+.first-item {
+
+
+}
+.first-item img{
+    width: 100%;
+    height: 95%;
+    /* width: 250px;
+    height: 211px; */
+
+}
+.second-item img{
+    width: 100%;
+    height: 95%;
+    /* width: 525px;
+height: 211px; */
+}
+.third-item img{
+    width: 100%;
+    height: 95%;
+    /* width: 292px;
+height: 211px; */
+}
+.exercises-grid-2{
+    grid-template-columns: .80fr .60fr .70fr;
+}
+ /* fourth section Trainings and Exercises design end  */
+
+ /* fifth section bmi calculator start  */
+
+ #Calculator-text{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+ }
+ #Calculator-text h1{
+    color: white;
+    font-size: 3rem;
+    font-weight:900;
+    text-align: left;
+ }
+ #Calculator-text p{
+    color: white;
+    font-size: 1rem;
+    font-weight:400;
+    line-height: 1.5rem;
+ }
+
+ #Bmi-Calculator{
+    background-color: var(--bg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .calculator-container{
+    width:1090px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    gap:80px ;
+
+ }
+ .Bmi-chart h1{
+    color: white;
+    font-size: 2rem;
+    font-weight:900;
+    text-align: left;
+    margin-bottom: 30px;
+
+ }
+ table{
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    border-collapse: collapse;
+
+
+ }
+ thead th{
+    border: 1px solid rgba(255, 255, 255, 0.1)
+    ;
+    padding: 15px 30px;
+
+ }
+tbody tr td {
+    border: 1px solid rgba(255, 255, 255, 0.1)
+    ;
+    padding: 15px 30px;
+
+ }
+
+ #bmi-calculator h1{
+    color: white;
+    font-size: 2rem;
+    font-weight:900;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 90px;
+ }
+ #bmi-calculator p{
+    color: white;
+    font-size: 1rem;
+    font-weight:400;
+    line-height: 1.5rem;
+    margin-left: 90px;
+    margin-bottom: 10px;
+
+ }
+ .Bmi-chart{
+    width: 60%;
+
+ }
+  #bmi-calculator{
+    width: 70%
+ }
+form{
+    margin-left: 80px;
+}
+form input, select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: none;
+    padding: 17px 13px;
+    margin: 10px;
+ }
+ form input .first{
+    /* width: 20%; */
+ }
+form input .second{
+    /* width: 20%; */
+ 
+ }
+ form input .third{
+    width: 50%;
+ }
+ form select, #sex{
+    width: 39%;
+ }
+ form select, #factor{
+    width: 81%;
+ }
+form  input, select, ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+ }
+ .calculate-btn button{
+    width: 200px;
+    height: 50px;
+    background-color: var(--button);
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 30px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+ }
+ /* fifth section bmi calculator end  */
+
+
+ /* sixth section Our team start */
+
+
+
+#our-team{
+    max-width: 1440px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#our-team h1{
+    color: white;
+    font-size: 3rem;
+    font-weight:900;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#our-team p{
+    color: white;
+    font-size: 1rem;
+    font-weight:400;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.team-container{
+    width: 1070px;
+    height: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--bg);
+    /* padding: 50px, 30px; */
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 19px;
+    position: relative;
+
+}
+.single-person img{
+    width: 326px;
+    height: 272px;
+    border-radius: 20px;
+    filter: brightness(70%);
+    border: none;
+    
+
+}
+span.title{
+    color: white;
+    font-size: 1.2rem;
+    font-weight:900;
+    text-align: left;
+}
+span.short-title{
+    color: white;
+    font-size: 1rem;
+    font-weight:400;
+    text-align: left;
+}
+/* .person-img{
+    position: relative;
+    z-index: 1;
+} */
+.team-text-1{
+    position:absolute;
+    top: 34%;
+    left: 3%;
+}
+.team-text-2{
+    position:absolute;
+    top: 34%;
+    left: 37%;
+}
+.team-text-3{
+    position:absolute;
+    top: 34%;
+    left: 71%;
+}
+.team-text-4{
+    position:absolute;
+    top: 85%;
+    left: 3%;
+}
+.team-text-5{
+    position:absolute;
+    top: 85%;
+    left: 37%;
+}
+.team-text-6{
+    position:absolute;
+    top: 85%;
+    left: 71%;
+}
+
+
+ /* sixth section Our team end */
+
+/* footer area design start */
+
+footer{
+    max-width: 1440px;
+    height: 500px;
+    background-color: var(--bg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+    gap: 80px;
+    margin: 0 auto;
+}
+.footer-left{
+    width: 34%;
+}
+.footer-left .brand .logo{
+    font-size: 4.4rem;
+}
+.footer-left p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 30px;
+    color:  rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+}
+.footer-center{
+    width: 33%;
+    padding-left: 110px;
+}
+.footer-center, .footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+   
+}
+.footer-center
+  h2{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin-bottom: 20px;
+    color:  rgb(255, 255, 255);
+    font-weight: 700;
+    /* text-align: center; */
+
+
+}
+.footer-center .menu{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    /* text-align: center; */
+
+}
+.footer-right{
+    width: 33%;
+    padding-left: 100px;
+}
+.footer-right h2{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin-bottom: 20px;
+    color:  rgb(255, 255, 255);
+    font-weight: 700;
+    /* text-align: center; */
+
+
+
+}
+.footer-right .menu{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    /* text-align: center; */
+    
+
+
+}
+.border{
+    width: 1100px;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.border span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* footer area design end */
+
+@media  screen and (max-width576px) {
+    
+
+
+    
+}
