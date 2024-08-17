@@ -81,7 +81,7 @@ header{
     justify-content: center;
 
 }
-.menu > a{
+.menuu > a{
     background-color: var(--button);
     padding: 10px 30px;
     border-radius: 50px;
