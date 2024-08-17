@@ -178,23 +178,56 @@
 
 
      #Calculator-text{
-        height: 200px;
-        margin-top: 150px;
+        height: 280px;
+        margin-bottom: 40px;
      }
 
      #Calculator-text{
         padding: 10px 30px;
+     }
+     #Calculator-text h1{
+        font-size: 70px;
+        margin-bottom: 20px;
+    
+     }
+     #Calculator-text p{
+        font-size: 27px;
+        line-height: 37px;
      }
    
 
     .calculator-container {
         flex-direction: column;
     }
+    #Bmi-Calculator{
+        height: 100%;
+    }
+    .calculator-container{
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    #bmi-calculator{
+        height: 100%;
+    }
  .Bmi-chart{
     width: 100%;
     padding-left: 40px;
 
  }
+ .Bmi-chart h1{
+    font-size: 70px;
+
+
+ }
+thead th{
+    font-size: 37px;
+    padding: 40px 100px;
+}
+tbody tr td{
+    font-size: 34px;
+    padding: 45px;
+}
   #bmi-calculator{
     width: 100%;
     margin-left: 0px;
@@ -202,8 +235,19 @@
  }
  #Bmi-Calculator{
    flex-direction: column;
-   height: 900px;
  }
+
+ #bmi-calculator h1{   
+    font-size: 67px;
+    padding-bottom: 20px;
+ }
+ #bmi-calculator p{   
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 20px;
+ }
+
+
  form{
     margin-left: 0px;
 }
@@ -213,6 +257,24 @@
  #bmi-calculator p{
     margin-left: 10px;
 }
+
+form input, select, ::placeholder {
+    font-size: 28px;
+    font-weight: 400;
+}
+.calculate-btn button{
+    width: 300px;
+    height: 70px;
+    font-size: 28px;
+ 
+ }
+
+
+
+ #membership{
+    height: 100%;
+    padding-bottom: 1300px;
+ }
 .pricing h1{
     font-size: 2rem;
     line-height: 2.7rem;
@@ -222,12 +284,43 @@
     width: 100%;
     gap: 50px;
 }
+.pricing h1{
+    font-size: 59px;
+    line-height: 75px;
+
+
+ }
 
 .plan{
-width: 80%;}
+width: 60%;
+padding-top: 100px;
+padding-bottom: 100px;
+background-repeat: 90px;
+
+}
 .plan p{
-    font-size: 1.1rem;
+    font-size: 33px;
     text-align: center;
+    margin-bottom: 25px;
+}
+.plan h3{
+    font-size: 50px;
+
+}
+.plan h2{
+    font-size: 68px;
+
+}
+#month{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.plan-btn{
+    padding: 25px 55px;
+    font-size: 25px;
+
+
 }
 
 .team-member{
