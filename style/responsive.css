@@ -352,18 +352,15 @@ background-repeat: 90px;
     line-height: 45px;
 
 }
-
-/* .team-member{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px; */
-
-
-
+.team-text-1, .team-text-2, .team-text-3, .team-text-4, .team-text-5, .team-text-6 {
+    display: none;
 }
 
-.team-container{
-}
+
+
+
+
+
 .single-person img{
     width: 100%;
     height: 100%;
