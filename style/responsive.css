@@ -273,7 +273,7 @@ form input, select, ::placeholder {
 
  #membership{
     height: 100%;
-    padding-bottom: 1300px;
+    padding-bottom: 100px;
  }
 .pricing h1{
     font-size: 2rem;
@@ -323,20 +323,46 @@ background-repeat: 90px;
 
 }
 
-.team-member{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
 
-
-
-}
 #our-team{
-    height: 3000px;
-
+    height: 100%;
 }
 .team-container{
-   2700px
+    width: 1070px;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
+    gap: 89px;
+    position: relative;
+
+}
+#our-team h1{
+    font-size: 70px;
+
+}
+#our-team p{
+    font-size: 35px;
+    line-height: 45px;
+
+}
+
+/* .team-member{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px; */
+
+
+
+}
+
+.team-container{
 }
 .single-person img{
     width: 100%;
